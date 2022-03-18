@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775485334896",
+    "project_id": "anstagram-2030c",
+    "storage_bucket": "anstagram-2030c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775485334896:android:6ae66886e03d72f5105bb5",
+        "android_client_info": {
+          "package_name": "org.techdown.anstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775485334896-lue4lipnmqb4n6pj02gl5quhnu3v95dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Cb_WxWgDEP-Rs31eBpz3nPMJONE67Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775485334896-lue4lipnmqb4n6pj02gl5quhnu3v95dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
