@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <ImageView
+            android:id="@+id/detail_view_profile_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="7dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_view_profile_text_view"
+            android:text="user name"
+            />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/detail_view_content_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/detail_view_favorite_image_view"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_favorite_border"/>
+        <ImageView
+            android:id="@+id/detail_view_comment_image_view"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_chat_black"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_view_item_favoritecount_text"
+        android:text="like 0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_view_item_explain_text"
+        android:text="Explain"/>
+
+
+</LinearLayout>

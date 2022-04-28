@@ -38,6 +38,10 @@ class LoginActivity : AppCompatActivity() {
     var googleSignInClient: GoogleSignInClient?=null
     var callbackManager:CallbackManager?=null
 
+    override fun onStart() {
+        super.onStart()
+        moveMainPage(auth?.currentUser)
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -210,6 +214,7 @@ class LoginActivity : AppCompatActivity() {
     {
         if(user!=null){
             startActivity(Intent(this,MainActivity::class.java))
+            finish()
         }
     }
 
